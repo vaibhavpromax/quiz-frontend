@@ -1,0 +1,70 @@
+.header {
+    color: white;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+
+.cardcontainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+.cont {
+    height: 80vh;
+    width: 95%;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-purple);
+    width: 30%;
+    border-radius: 15px;
+    height: 100px;
+    color: var(--text-color);
+}
+
+.active {
+    background-color: var(--active-red);
+    color: aliceblue
+}
+
+.cardtext {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.chooseOptions {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nextbtn {
+    height: 50px;
+    position: absolute;
+    width: 90%;
+    bottom: 10px;
+}

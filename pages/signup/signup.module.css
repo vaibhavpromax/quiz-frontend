@@ -1,0 +1,28 @@
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signcontainer {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.user,
+.pass {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input {
+    height: 40px;
+    border: none;
+    padding: 10px;
+}

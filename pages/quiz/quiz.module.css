@@ -1,0 +1,117 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.profilepic:first-child {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(231, 79, 79);
+}
+
+.profilepic:last-child {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: relative;
+    top: 80px;
+}
+
+
+
+.checkboxes {
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.tickbox:first-child {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    display: flex;
+    gap: 5px;
+}
+
+.tickbox:last-child {
+    position: absolute;
+    top: 125px;
+    right: 100px;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.box {
+    height: 20px;
+    width: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    width: 90%;
+    gap: 30px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.numberofq {
+    align-self: flex-start;
+    font-size: 16px;
+}
+
+.question {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.timer {
+    font-size: 22px;
+}
+
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.option {
+    font-size: 20px;
+    width: 70vw;
+    border: 1px solid rgba(0, 0, 0, 0.34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.selected {
+    background-color: #6cf06c !important;
+}

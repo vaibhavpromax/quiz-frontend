@@ -1,0 +1,156 @@
+.userPic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username {
+    color: var(--text-color-3);
+    font-size: 24px;
+}
+
+.img {
+    position: absolute;
+    top: 30%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-purple);
+    width: 45%;
+    border-radius: 15px;
+    height: 150px;
+    color: var(--text-color);
+}
+
+.iconbox {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.active {
+    background-color: var(--active-red);
+    color: aliceblue
+}
+
+.cardtext {
+    margin-top: 15px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cardcontainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.greet {
+    color: var(--text-color-2);
+    font-size: 18px;
+}
+
+.user {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recentCard {
+    width: 90%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: peachpuff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recentleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rec {
+    color: rgb(235, 179, 76);
+    font-size: 16px;
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lastquizname {
+    color: rgb(245, 115, 59);
+    font-size: 20px;
+}
+
+.recentright {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.lead {
+    background-color: white;
+    color: var(--color-primary);
+    position: relative;
+    top: 350px;
+}
+
+.drawer {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+
+.middle {
+    margin-top: 50px;
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.playbtn {
+    margin: 20px 0;
+    height: 50px;
+    font-size: 25px;
+    width: 100%;
+}

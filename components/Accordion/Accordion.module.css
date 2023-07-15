@@ -1,0 +1,31 @@
+/* Accordion.module.css */
+.accordion {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.accordionHeader {
+    background-color: #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+    height: 60px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.accordionContent {
+    display: none;
+    overflow: hidden;
+    transition: display 0.3s ease;
+    padding: 10px;
+}
+
+.accordionContentOpen {
+    display: block;
+    /* Adjust the maximum height as needed */
+}
